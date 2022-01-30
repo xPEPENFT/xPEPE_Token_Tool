@@ -150,4 +150,6 @@ var connection = mysql.createConnection({
       
  This is handy for ignoring the issuing Wallet + any Marketing/Devlopment Wallets you might not need to look at.
       
- That's it for this tool! Please check out the other Repo's to tie in this tool with others, including a Leaderboard for your top 15 Holders and a way to easily View all your MySQL Data! ( SOON TO COME )
+ That's it for this tool! Please check out the other Repo's to tie in this tool with others, including a Leaderboard for your top 15 Holders and a way to easily View all your MySQL Data!
+ 
+ [Top 15 LIVE Leaderboard Repo](https://github.com/xPEPENFT/xPEPE_Leaderboard)
