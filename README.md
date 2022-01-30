@@ -101,9 +101,9 @@ var connection = mysql.createConnection({
   });
   ```
   
-  2: Setup your request for Sell Orders, put in your Token Currency and your Issuer Address in their respective places (Lines 42-53)
+2: Setup your request for Sell Orders, put in your Token Currency and your Issuer Address in their respective places (Lines 42-53)
   
-  ```
+```
      const getOfferData = {
         "id": 4,
         "command": "book_offers",
@@ -116,11 +116,11 @@ var connection = mysql.createConnection({
         },
         "limit":300
    }
-   ```
+```
    
-   3: Setup your request for Buy Orders, put in your Token Currency and Issuer Address in their respectice places. (Lines 94-106)
+3: Setup your request for Buy Orders, put in your Token Currency and Issuer Address in their respectice places. (Lines 94-106)
    
-   ```
+```
       const getBuyData = {
         "id": 4,
         "command": "book_offers",
@@ -134,20 +134,20 @@ var connection = mysql.createConnection({
         },
         "limit":300
       }
-      ```
+```
       
-      That's it for book.js!
+ That's it for book.js!
       
-      Let's move onto the rich_list-V6.py!
+ Let's move onto the rich_list-V6.py!
       
-      The only thing you need to change here is the issuer address to match yours! (Line 9)
+ The only thing you need to change here is the issuer address to match yours! (Line 9)
       
-      ```
+ ```
       target_address = "rw5e5krAvv1DrWyzmEr1NtNzg5jR26u5Gj" # Fill out with your target address
-      ```
+ ```
       
-      The last thing we have to do is optional, if you wish to ignore certain Wallet's from the Richlist download, add them into the exempt.txt file.
+ The last thing we have to do is optional, if you wish to ignore certain Wallet's from the Richlist download, add them into the exempt.txt file.
       
-      This is handy for ignoring the issuing Wallet + any Marketing/Devlopment Wallets you might not need to look at.
+ This is handy for ignoring the issuing Wallet + any Marketing/Devlopment Wallets you might not need to look at.
       
-      That's it for this tool! Please check out the other Repo's to tie in this tool with others, including a Leaderboard for your top 15 Holders and a way to easily View all your MySQL Data!
+ That's it for this tool! Please check out the other Repo's to tie in this tool with others, including a Leaderboard for your top 15 Holders and a way to easily View all your MySQL Data!
