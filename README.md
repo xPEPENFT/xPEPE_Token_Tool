@@ -93,7 +93,11 @@ If you do not have Javascript / Python setup, please install those before moving
 
 To Install Javascript/Node.JS go [HERE](https://nodejs.org/en/)
 
-Also some users reportedly have to install Python through the Windows Store, do that by opening a command prompt and typing "Python"
+To install Python open a command prompt window and type "python"
+
+![image](https://user-images.githubusercontent.com/98682121/151852332-b8037551-9233-4812-8978-7aeb2bdab0b8.png)
+
+If you do not have it installed it will open up the Windows Store to download Python shown below.
 
 ![image](https://user-images.githubusercontent.com/98682121/151736064-f9ebefe0-bbe7-432f-9e7a-a083c692be44.png)
 
@@ -102,12 +106,8 @@ Press the "Get" button and then "Install" once that is done.
 Once that is installed, open a command prompt and install the required modules for the scripts.
 
 ```
-npm install xrpl
+pip install xrpl-py
 ```
-
-![image](https://user-images.githubusercontent.com/98682121/151723921-6025ec36-af79-4f6e-8ed6-83abea01666f.png)
-
-Next go [HERE](https://www.python.org/downloads/) to install Python.
 
 
 Open the "book.js" file located in the "scripts" folder
