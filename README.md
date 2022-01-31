@@ -5,6 +5,8 @@
 - Javascript for the OfferBook section - Written by Robert Daugherty aka xArtist Dameinx
 - Python for the Richlist Compile (Pull all Token Holders Wallets/Balances) - Written by xPEPE Raphael
 
+Disclaimer: Please note all data is pulled via the XRP Ledger and we take no responsibility for incorrect data or issues you may experience.
+
 - [Top 15 LIVE Leaderboard](https://github.com/xPEPENFT/xPEPE_Leaderboard) (Uses the MySQL data from these files)
 
 What you need
