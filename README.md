@@ -89,6 +89,18 @@ Next step is to setup the Javascript + Python scripts
 
 If you do not have Javascript / Python setup, please install those before moving forward.
 
+To Install Python go [HERE](https://nodejs.org/en/)
+
+Once that is installed, open a command prompt and install the required modules for the scripts.
+
+```
+npm install xrpl
+```
+
+![image](https://user-images.githubusercontent.com/98682121/151723921-6025ec36-af79-4f6e-8ed6-83abea01666f.png)
+
+
+
 Open the "book.js" file located in the "scripts" folder
 
 1: Setup your MySQL Server Settings inside here just as you did your Settings.ini (Lines 4-9)
