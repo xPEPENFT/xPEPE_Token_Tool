@@ -93,6 +93,12 @@ If you do not have Javascript / Python setup, please install those before moving
 
 To Install Javascript/Node.JS go [HERE](https://nodejs.org/en/)
 
+Also some users reportedly have to install Python through the Windows Store, do that by opening a command prompt and typing "Python"
+
+![image](https://user-images.githubusercontent.com/98682121/151736064-f9ebefe0-bbe7-432f-9e7a-a083c692be44.png)
+
+Press the "Get" button and then "Install" once that is done.
+
 Once that is installed, open a command prompt and install the required modules for the scripts.
 
 ```
