@@ -4,6 +4,7 @@
 - A mix of Javascript + Python is used to pull XRP Ledger Data
 - Javascript for the OfferBook section - Written by Robert Daugherty aka xArtist Dameinx
 - Python for the Richlist Compile (Pull all Token Holders Wallets/Balances) - Written by xPEPE Raphael
+- Join us in our Discord [HERE](https://discord.gg/HAG5Qe79wK)
 
 Disclaimer: Please note all data is pulled via the XRP Ledger and we take no responsibility for incorrect data or issues you may experience.
 
